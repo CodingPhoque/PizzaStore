@@ -6,8 +6,10 @@ namespace PizzaStore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
-
+            
+            Console.WriteLine("Welcome to Big Mamma Pizza Store");
+            Store s = new Store();
+            s.Start();
         }
     }
 
